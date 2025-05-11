@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 1140px;
+  margin: auto;
+  /* border: 1px solid green; */
+  /* display: flex;
+    justify-content: center; */
+}
+.owl-carousel.owl-theme .item img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .box {
+    width: 90%;
+  }
+  .owl-carousel.owl-theme .item img {
+    width: 50%;
+    margin: auto;
+  }
+}
